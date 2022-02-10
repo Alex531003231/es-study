@@ -19,7 +19,7 @@ public class ElasticsearchConfig extends AbstractElasticsearchConfiguration {
 
     /**
      * 重写方法
-     * @Author haibo.li
+     * @Author waveLee
      * @Date 2022/2/10 14:57
      * @Param []
      * @Return RestHighLevelClient
