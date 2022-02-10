@@ -8,6 +8,11 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.elasticsearch.core.ElasticsearchRestTemplate;
 import org.springframework.test.context.junit4.SpringRunner;
 
+/**
+ * @Description: es索引新增删除测试
+ * @Author: haibo.li
+ * @Date: 2022/2/10 15:20
+ */
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class SpringDataESIndexTest {

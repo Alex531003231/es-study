@@ -1,4 +1,4 @@
-package com.lhb.es.DAO;
+package com.lhb.es.dao;
 
 import com.lhb.es.entity.Product;
 import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;
