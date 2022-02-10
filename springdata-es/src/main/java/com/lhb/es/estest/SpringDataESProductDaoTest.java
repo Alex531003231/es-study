@@ -90,11 +90,11 @@ public class SpringDataESProductDaoTest {
         List<Product> productList = new ArrayList<>();
         for (int i = 0; i < 10; i++) {
             Product product = new Product();
-            product.setId(Long.valueOf(i));
+            product.setId((long) i);
             product.setTitle("小米手机["+i+"]");
             product.setCategory("手机");
             product.setPrice(1999.0+i);
-            product.setImages("http://www.atguigu/xm.jpg");
+            product.setImages("http://www.xiaomi/xm.jpg");
             productList.add(product);
         }
         productDao.saveAll(productList);
